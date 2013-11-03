@@ -10,6 +10,12 @@ return array(
         ),
     ),
 
+    'controller_plugins' => array(
+        'invokables' => array(
+            'trydFileUploader' => 'Tryd\FileUploader\Controller\Plugin\PluginProxy',
+        ),
+    ),
+
     'view_manager' => array(
         'template_map' => array(
             /* Views */
