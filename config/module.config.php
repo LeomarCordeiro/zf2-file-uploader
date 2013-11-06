@@ -31,4 +31,28 @@ return array(
             'Tryd\FileUploader' => __DIR__ . '/../view',
         ),
     ),
+
+    'asset_manager' => array(
+        'resolver_configs' => array(
+            'paths' => array(
+                'Tryd\FileUploader' => __DIR__ . '/../public',
+            ),
+            'collections' => array(
+                'asset/file-uploader/css/all.css' => array(
+                    'asset/file-uploader/css/file-uploader.css',
+                ),
+                'asset/file-uploader/js/all.js' => array(
+                    'asset/file-uploader/js/file-uploader.js',
+                ),
+            ),
+            'map' => array(
+                /* Styles */
+                'asset/file-uploader/css/file-uploader.css' => __DIR__ . '/../public/file-uploader/css/file-uploader.css',
+                /* Scripts */
+                'asset/file-uploader/js/file-uploader.js' => __DIR__ . '/../public/file-uploader/js/file-uploader.js',
+                /* Images */
+                'asset/file-uploader/img/file-add.png' => __DIR__ . '/../public/file-uploader/img/file-add.png',
+            ),
+        ),
+    ),
 );
