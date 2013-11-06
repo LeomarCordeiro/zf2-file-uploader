@@ -68,11 +68,11 @@ return array(
             ),
             'map' => array(
                 /* Styles */
-                'asset/file-uploader/css/file-uploader.css' => __DIR__ . '/../public/file-uploader/css/file-uploader.css',
+                'asset/file-uploader/css/file-uploader.css' => __DIR__ . '/../public/css/file-uploader.css',
                 /* Scripts */
-                'asset/file-uploader/js/file-uploader.js' => __DIR__ . '/../public/file-uploader/js/file-uploader.js',
+                'asset/file-uploader/js/file-uploader.js' => __DIR__ . '/../public/js/file-uploader.js',
                 /* Images */
-                'asset/file-uploader/img/file-add.png' => __DIR__ . '/../public/file-uploader/img/file-add.png',
+                'asset/file-uploader/img/file-add.png' => __DIR__ . '/../public/img/file-add.png',
             ),
         ),
     ),
