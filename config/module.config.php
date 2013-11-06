@@ -32,6 +32,19 @@ return array(
         ),
     ),
 
+    'tryd_i18n' => array(
+        'translator' => array(
+            'translation_file_patterns' => array(
+                array(
+                    'type'     => 'gettext',
+                    'base_dir' => __DIR__ . '/../language',
+                    'pattern'  => '%s.mo',
+                    'text_domain' => 'Tryd\FileUploader',
+                ),
+            ),
+        ),
+    ),
+
     'asset_manager' => array(
         'resolver_configs' => array(
             'paths' => array(
