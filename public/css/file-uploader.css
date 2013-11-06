@@ -4,4 +4,32 @@
  * @author Yassel Avila Gil
  */
 
-/* TODO */
+/*
+ * DnD Widget 
+ */
+
+.tf-dndzone {
+	display: block;
+	min-height: 250px;
+    margin: 15px 0;
+    padding: 0;
+    padding-top: 10px;
+	border-radius: 5px;
+    background-color: #F7F5FA;
+	background-image: URL(/asset/file-uploader/img/file-add.png);
+	background-repeat: no-repeat;
+	background-position: 50% 55%; 
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.tf-dndzone > p {
+	display: block;
+	text-align: center;
+    color: gray;
+	text-decoration: none;
+	
+}
+
+ul.tf-dndzone-filelist {
+	background-color: #F7F5FA;
+}

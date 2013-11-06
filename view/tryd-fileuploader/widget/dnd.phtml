@@ -8,10 +8,10 @@ $translator = $this->trydI18n()->translator('Tryd\FileUploader');
 
 ?>
 
-<div class="tf-file-list-wrapper">
-    <a href="#" class="btn"><?php echo $translator->translate('Click here or drag and drop files from browser to add it.'); ?></a>
+<div class="tf-dndzone">
+    <p><?php echo $translator->translate('Click here or drag and drop files from browser to add it.'); ?></p>
 
-    <ul class="tf-file-list">
+    <ul class="tf-dndzone-filelist">
         <?php
 
             //TODO: image list
