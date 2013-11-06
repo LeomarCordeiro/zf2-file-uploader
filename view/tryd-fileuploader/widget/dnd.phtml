@@ -1,0 +1,21 @@
+<?php
+
+/* Assets */
+$this->headLink()->prependStylesheet($this->basePath('/asset/file-uploader/css/file-uploader.css'));
+$this->inlineScript()->prependFile($this->basePath('/asset/file-uploader/css/file-uploader.js'));
+
+$translator = $this->trydI18n()->translator('Tryd\FileUploader');
+
+?>
+
+<div class="tf-image-list-wrapper">
+    <a href="#" class="btn"><?php echo $translator->translate('Click here or drag and drop files from browser to add it.'); ?></a>
+
+    <ul class="tf-image-list">
+        <?php
+
+            //TODO: image list
+
+        ?>
+    </ul>
+</div>

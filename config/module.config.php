@@ -22,10 +22,18 @@ return array(
         ),
     ),
 
+    'view_helpers' => array(
+        'invokables' => array(
+            'trydFileUploader' => 'Tryd\FileUploader\View\Helper\HelperProxy',
+        ),
+    ),
+
     'view_manager' => array(
         'template_map' => array(
             /* Views */
             'tryd-fileuploader/upload/upload' => __DIR__ . '/../view/tryd-fileuploader/upload/upload.phtml',
+            /* Views for Widgets */
+            'tryd-fileuploader/widget/dnd' => __DIR__ . '/../view/tryd-fileuploader/widget/dnd.phtml',
         ),
         'template_path_stack' => array(
             'Tryd\FileUploader' => __DIR__ . '/../view',
