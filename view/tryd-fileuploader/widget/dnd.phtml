@@ -1,8 +1,8 @@
 <?php
 
 /* Assets */
-$this->headLink()->prependStylesheet($this->basePath('/asset/file-uploader/css/file-uploader.css'));
-$this->inlineScript()->prependFile($this->basePath('/asset/file-uploader/js/file-uploader.js'));
+$this->headLink()->appendStylesheet($this->basePath('/asset/file-uploader/css/file-uploader.css'));
+$this->inlineScript()->appendFile($this->basePath('/asset/file-uploader/js/file-uploader.js'));
 
 $translator = $this->trydI18n()->translator('Tryd\FileUploader');
 
