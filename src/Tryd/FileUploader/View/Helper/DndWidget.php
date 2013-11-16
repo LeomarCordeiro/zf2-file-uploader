@@ -9,18 +9,12 @@
 
 namespace Tryd\FileUploader\View\Helper;
 
-use Zend\View\Helper\AbstractHelper;
+use Tryd\Base\View\Helper\AbstractWidget;
 
-class DndWidget extends AbstractHelper
+class DndWidget extends AbstractWidget
 {
     /**
-     * Helper entry point
-     *
-     * @return string
+     * @var string
      */
-    public function __invoke()
-    {
-        $result = $this->getView()->partial('tryd-fileuploader/widget/dnd');
-        return $result;
-    }
+    protected $defaultTemplate = 'tryd-fileuploader/widget/dnd';
 }
