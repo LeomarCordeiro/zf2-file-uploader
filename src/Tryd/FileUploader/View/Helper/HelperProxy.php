@@ -22,4 +22,11 @@ class HelperProxy extends AbstractHelperProxy
     protected $invokableClasses = array(
         'dndWidget' => 'Tryd\FileUploader\View\Helper\DndWidget',
     );
+
+    /**
+     * @var array
+     */
+    protected $shared = array(
+        'dndWidget' => false,
+    );
 }
