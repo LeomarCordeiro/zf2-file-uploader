@@ -40,12 +40,12 @@ class UploadFilter extends InputFilter
     public function getRenameUploadFilter()
     {
         if (null === $this->renameUploadFilter) {
-            $this->renameUploadFilter = new RenameUploadFilter(array(
+            $this->renameUploadFilter = new RenameUploadFilter([
                 'overwrite' => false,
                 'randomize' => false,
                 'use_upload_name' => true,
                 'use_upload_extension' => true,
-            ));
+            ]);
         }
 
         return $this->renameUploadFilter;

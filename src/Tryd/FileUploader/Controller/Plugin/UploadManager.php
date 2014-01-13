@@ -57,9 +57,9 @@ class UploadManager extends AbstractPlugin implements
             return $controller->redirect()->refresh();
         }
 
-        $viewModel = new ViewModel(array(
+        $viewModel = new ViewModel([
             'form' => $form,
-        ));
+        ]);
 
         $viewModel->setTemplate('tryd-fileuploader/upload/upload');
 

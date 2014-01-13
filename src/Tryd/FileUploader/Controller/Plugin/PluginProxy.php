@@ -19,7 +19,7 @@ class PluginProxy extends AbstractPluginProxy
     /**
      * @var array
      */
-    protected $invokableClasses = array(
+    protected $invokableClasses = [
         'uploadManager' => 'Tryd\FileUploader\Controller\Plugin\UploadManager',
-    );
+    ];
 }
