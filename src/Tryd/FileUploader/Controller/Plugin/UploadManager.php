@@ -2,7 +2,7 @@
 /**
  * TrydFileUploader
  *
- * @copyright Copyright (c) 2013, Yassel Avila Gil (http://yasselavila.com/)
+ * @copyright Copyright (c) 2013 - 2014, Yassel Avila (http://yasselavila.com/)
  * @license   http://tryd.net/license/new-bsd New BSD License
  * @link      http://tryd.net/projects/trydfileuploader
  */
@@ -57,9 +57,9 @@ class UploadManager extends AbstractPlugin implements
             return $controller->redirect()->refresh();
         }
 
-        $viewModel = new ViewModel(array(
+        $viewModel = new ViewModel([
             'form' => $form,
-        ));
+        ]);
 
         $viewModel->setTemplate('tryd-fileuploader/upload/upload');
 

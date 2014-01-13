@@ -2,7 +2,7 @@
 /**
  * TrydFileUploader
  *
- * @copyright Copyright (c) 2013, Yassel Avila Gil (http://yasselavila.com/)
+ * @copyright Copyright (c) 2013 - 2014, Yassel Avila (http://yasselavila.com/)
  * @license   http://tryd.net/license/new-bsd New BSD License
  * @link      http://tryd.net/projects/trydfileuploader
  */
@@ -40,12 +40,12 @@ class UploadFilter extends InputFilter
     public function getRenameUploadFilter()
     {
         if (null === $this->renameUploadFilter) {
-            $this->renameUploadFilter = new RenameUploadFilter(array(
+            $this->renameUploadFilter = new RenameUploadFilter([
                 'overwrite' => false,
                 'randomize' => false,
                 'use_upload_name' => true,
                 'use_upload_extension' => true,
-            ));
+            ]);
         }
 
         return $this->renameUploadFilter;

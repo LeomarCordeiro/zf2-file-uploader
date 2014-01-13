@@ -2,7 +2,7 @@
 /**
  * TrydFileUploader
  *
- * @copyright Copyright (c) 2013, Yassel Avila Gil (http://yasselavila.com/)
+ * @copyright Copyright (c) 2013 - 2014, Yassel Avila (http://yasselavila.com/)
  * @license   http://tryd.net/license/new-bsd New BSD License
  * @link      http://tryd.net/projects/trydfileuploader
  */
@@ -23,24 +23,24 @@ class Upload extends Form
         $this->setAttribute('method', 'post');
         $this->setAttribute('enctype', 'multipart/form-data');
 
-        $this->add(array(
+        $this->add([
             'type' => 'Zend\Form\Element\File',
             'name' => 'file',
-            'options' => array(
+            'options' => [
                 'label' => 'File(s)',
-            ),
-            'attributes' => array(
+            ],
+            'attributes' => [
                 'id' => 'file',
                 'multiple' => true,
-            ),
-        ));
+            ],
+        ]);
 
-        $this->add(array(
+        $this->add([
             'type' => 'Zend\Form\Element\Submit',
             'name' => 'submit',
-            'attributes' => array(
+            'attributes' => [
                 'value' => 'Upload',
-            ),
-        ));
+            ],
+        ]);
     }
 }
