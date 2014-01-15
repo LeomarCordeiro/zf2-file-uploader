@@ -14,7 +14,7 @@ use Zend\Filter\File\RenameUpload as BaseRenameUpload;
 class RenameUpload extends BaseRenameUpload
 {
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      */
     protected function applyRandomToFilename($source, $filename)
     {
