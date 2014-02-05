@@ -11,6 +11,7 @@ File uploader module for ZF2 based applications.
 
 * [PHP 5.4](http://php.net/)
 * [Zend Framework 2.2](http://framework.zend.com/)
+* [AssetManager 1.3.5](http://github.com/RWOverdijk/AssetManager)
 * [Tryd\Base 0.2](http://github.com/tryd/tryd-base)
 * [Tryd\I18n 0.1](http://github.com/tryd/tryd-i18n)
 
@@ -37,6 +38,7 @@ For composer documentation, please refer to [getcomposer.org](http://getcomposer
   5. open `/path/to/my/project/config/application.config.php` and add the following keys to your `modules`:
 
      ```php
+     'AssetManager',
      'Tryd\Base',
      'Tryd\I18n',
      'Tryd\FileUploader',
