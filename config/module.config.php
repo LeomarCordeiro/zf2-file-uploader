@@ -59,20 +59,20 @@ return [
                 'Tryd\FileUploader' => __DIR__ . '/../public',
             ],
             'collections' => [
-                'asset/file-uploader/css/all.css' => [
-                    'asset/file-uploader/css/file-uploader.css',
+                'file-uploader/css/all.css' => [
+                    'file-uploader/css/file-uploader.css',
                 ],
-                'asset/file-uploader/js/all.js' => [
-                    'asset/file-uploader/js/file-uploader.js',
+                'file-uploader/js/all.js' => [
+                    'file-uploader/js/file-uploader.js',
                 ],
             ],
             'map' => [
                 /* Styles */
-                'asset/file-uploader/css/file-uploader.css' => __DIR__ . '/../public/css/file-uploader.css',
+                'file-uploader/css/file-uploader.css' => __DIR__ . '/../public/css/file-uploader.css',
                 /* Scripts */
-                'asset/file-uploader/js/file-uploader.js' => __DIR__ . '/../public/js/file-uploader.js',
+                'file-uploader/js/file-uploader.js' => __DIR__ . '/../public/js/file-uploader.js',
                 /* Images */
-                'asset/file-uploader/img/file-add.png' => __DIR__ . '/../public/img/file-add.png',
+                'file-uploader/img/file-add.png' => __DIR__ . '/../public/img/file-add.png',
             ],
         ],
     ],
