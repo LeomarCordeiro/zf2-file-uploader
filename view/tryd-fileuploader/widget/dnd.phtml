@@ -4,7 +4,7 @@
 $this->headLink()->appendStylesheet($this->basePath('/file-uploader/css/file-uploader.css'));
 $this->inlineScript()->appendFile($this->basePath('/file-uploader/js/file-uploader.js'));
 
-$translator = $this->trydI18n()->translator('Tryd\FileUploader');
+$translator = $this->trydI18n()->translator(null, 'Tryd\FileUploader');
 
 ?>
 
