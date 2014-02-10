@@ -13,4 +13,15 @@ use Tryd\Base\Module\AbstractModule;
 
 class Module extends AbstractModule
 {
+    /**
+     * {@inheritDoc}
+     */
+    public function getModuleDependencies()
+    {
+        return [
+            'Tryd\AssetManager',
+            'Tryd\JQuery',
+            'Tryd\I18n',
+        ];
+    }
 }
