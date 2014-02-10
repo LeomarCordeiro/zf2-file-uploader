@@ -20,14 +20,12 @@ class UploadFormFactory implements FactoryInterface
      * Create service
      *
      * @param ServiceLocatorInterface $serviceLocator
-     * @return mixed
+     * @return UploadForm
      */
     public function createService(ServiceLocatorInterface $serviceLocator)
     {
-        $filter = new UploadFilter();
-
         $form = new UploadForm();
-        $form->setInputFilter($filter);
+        $form->setInputFilter(new UploadFilter());
 
         return $form;
     }
