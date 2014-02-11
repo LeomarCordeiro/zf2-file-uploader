@@ -7,26 +7,25 @@
  * @link      http://tryd.net/project/trydfileuploader
  */
 
-namespace Tryd\FileUploader\Form\Service;
+namespace Tryd\FileUploader\Form\Element\Service;
 
 use Zend\ServiceManager\FactoryInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
-use Tryd\FileUploader\Form\Upload as UploadForm;
-use Tryd\FileUploader\Form\UploadFilter;
+use Tryd\FileUploader\Form\Element\DndFile;
 
-class UploadFormFactory implements FactoryInterface
+class DndFileElementFactory implements
+    FactoryInterface
 {
     /**
      * Create service
      *
      * @param ServiceLocatorInterface $serviceLocator
-     * @return UploadForm
+     * @return DndFile
      */
     public function createService(ServiceLocatorInterface $serviceLocator)
     {
-        $form = new UploadForm();
-        $form->setInputFilter(new UploadFilter());
+        $element = new DndFile();
 
-        return $form;
+        return $element;
     }
 }
