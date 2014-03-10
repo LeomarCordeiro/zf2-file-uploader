@@ -25,6 +25,7 @@ For composer documentation, please refer to [getcomposer.org](http://getcomposer
 
   1. `cd /path/to/my/project`
   2. Create a `composer.json` file with following contents:
+
      ```json
      {
          "require": {
@@ -36,6 +37,7 @@ For composer documentation, please refer to [getcomposer.org](http://getcomposer
      http://getcomposer.org/installer and execute it with PHP)
   4. Run `php composer.phar install`
   5. Open `/path/to/my/project/config/application.config.php` and add the following keys to your `modules`:
+
      ```php
      'Tryd\Base',
      'Tryd\AssetManager',
