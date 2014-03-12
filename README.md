@@ -10,11 +10,11 @@ File uploader module for ZF2 based applications.
 ## Requirements
 
 * [PHP 5.4.23](http://php.net/)
-* [Zend Framework 2.2.5](http://framework.zend.com/)
-* [Tryd\Base 0.2](http://github.com/tryd/tryd-base)
-* [Tryd\AssetManager 0.1](http://github.com/tryd/tryd-asset-manager)
-* [Tryd\JQuery 0.1](http://github.com/tryd/tryd-jquery)
-* [Tryd\I18n 0.1](http://github.com/tryd/tryd-i18n)
+* [Zend Framework 2.3.0](http://framework.zend.com/)
+* [Tryd\Base 0.2](http://github.com/tryd/zf2-base)
+* [Tryd\AssetManager 0.1](http://github.com/tryd/zf2-asset-manager)
+* [Tryd\JQuery 0.1](http://github.com/tryd/zf2-jquery)
+* [Tryd\I18n 0.1](http://github.com/tryd/zf2-i18n)
 
 ## Installation
 
@@ -29,7 +29,7 @@ For composer documentation, please refer to [getcomposer.org](http://getcomposer
      ```json
      {
          "require": {
-             "tryd/tryd-file-uploader": ">=0.1"
+             "tryd/zf2-file-uploader": ">=0.1"
          }
      }
      ```
