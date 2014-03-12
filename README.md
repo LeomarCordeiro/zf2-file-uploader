@@ -10,7 +10,7 @@ File uploader module for ZF2 based applications.
 ## Requirements
 
 * [PHP 5.4.23](http://php.net/)
-* [Zend Framework 2.2.6](http://framework.zend.com/)
+* [Zend Framework 2.3.0](http://framework.zend.com/)
 * [Tryd\Base 0.2](http://github.com/tryd/zf2-base)
 * [Tryd\AssetManager 0.1](http://github.com/tryd/zf2-asset-manager)
 * [Tryd\JQuery 0.1](http://github.com/tryd/zf2-jquery)
