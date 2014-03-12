@@ -1,5 +1,5 @@
 {
-	"name": "tryd/tryd-file-uploader",
+	"name": "tryd/zf2-file-uploader",
 	"description": "File uploader module for ZF2 based applications",
 	"version" : "0.1.0",
 	"type": "module",
@@ -7,19 +7,20 @@
 	"keywords": [
 		"zf2",
 		"tryd",
-		"file upload"
+		"file",
+		"upload"
 	],
-	"homepage": "https://github.com/tryd/tryd-file-uploader",
+	"homepage": "https://github.com/tryd/zf2-file-uploader",
 	"authors": [{
 		"name": "Yassel Avila",
 		"email": "yassel.avila@gmail.com",
 		"homepage": "http://yasselavila.com/"
 	}],
 	"require": {
-		"tryd/tryd-base": ">=0.2",
-		"tryd/tryd-asset-manager": ">=0.1",
-		"tryd/tryd-jquery": ">=0.1",
-		"tryd/tryd-i18n": ">=0.1"
+		"tryd/zf2-base": ">=0.2",
+		"tryd/zf2-asset-manager": ">=0.1",
+		"tryd/zf2-jquery": ">=0.1",
+		"tryd/zf2-i18n": ">=0.1"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "3.7.*"
