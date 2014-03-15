@@ -10,15 +10,6 @@ return [
         ],
     ],
 
-    'form_element' => [
-        'factories' => [
-            'Tryd\FileUploader\Form\Element\DndFile' => 'Tryd\FileUploader\Form\Element\Service\DndFileElementFactory',
-        ],
-        'shared' => [
-            'Tryd\FileUploader\Form\Element\DndFile' => false,
-        ],
-    ],
-
     'controllers' => [
         'invokables' => [
             'Tryd\FileUploader\Controller\Upload' => 'Tryd\FileUploader\Controller\UploadController',
