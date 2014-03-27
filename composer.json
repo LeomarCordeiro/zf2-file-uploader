@@ -17,7 +17,7 @@
 		"homepage": "http://yasselavila.com/"
 	}],
 	"require": {
-		"tryd/zf2-base": ">=0.2",
+		"tryd/zf2-base": ">=0.1",
 		"tryd/zf2-asset-manager": ">=0.1",
 		"tryd/zf2-jquery": ">=0.1",
 		"tryd/zf2-i18n": ">=0.1"
