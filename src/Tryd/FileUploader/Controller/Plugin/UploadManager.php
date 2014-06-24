@@ -16,8 +16,7 @@ use Zend\Stdlib\ResponseInterface as Response;
 use Zend\View\Model\ViewModel;
 use Tryd\FileUploader\Form\Upload as UploadForm;
 
-class UploadManager extends AbstractPlugin implements
-    ServiceLocatorAwareInterface
+class UploadManager extends AbstractPlugin implements ServiceLocatorAwareInterface
 {
     use ServiceLocatorAwareTrait;
 
