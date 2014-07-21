@@ -28,6 +28,12 @@ return [
         ],
     ],
 
+    'form_elements' => [
+        'invokables' => [
+            'Tryd\FileUploader\Form\Element\File' => 'Tryd\FileUploader\Form\Element\File',
+        ],
+    ],
+
     'view_manager' => [
         'template_map' => [
             /* Views */
