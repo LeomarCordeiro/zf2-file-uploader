@@ -32,6 +32,9 @@ return [
         'invokables' => [
             'Tryd\FileUploader\Form\Element\File' => 'Tryd\FileUploader\Form\Element\File',
         ],
+        'shared' => [
+            'Tryd\FileUploader\Form\Element\File' => false,
+        ],
     ],
 
     'view_manager' => [
